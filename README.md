@@ -60,8 +60,7 @@ Attach the InputController script to it
 
 Press Play — it will start emitting input events
 
-
-### 💡 You only need one instance of InputController in the scene.
+💡 You only need one instance of InputController in the scene.
 
 ---
 
