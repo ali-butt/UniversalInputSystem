@@ -49,7 +49,9 @@ public class MyListener : MonoBehaviour
     }
 }
 
+```
 ### 3. Add InputController to the scene
+
 To activate the input system:
 
 Create an empty GameObject (e.g., InputSystem)
@@ -58,8 +60,10 @@ Attach the InputController script to it
 
 Press Play — it will start emitting input events
 
-💡 You only need one instance of InputController in the scene.
 
+### 💡 You only need one instance of InputController in the scene.
+
+---
 
 ## 📦 Dependencies
 None. This system uses Unity's classic Input Manager, so no additional packages are required.
