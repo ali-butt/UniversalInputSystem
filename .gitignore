@@ -1,0 +1,43 @@
+# ========== Unity / C# standard ignores ==========
+
+# Ignore Visual Studio and Rider project files
+*.csproj
+*.sln
+*.user
+*.suo
+*.tmp
+*.pdb
+*.mdb
+
+# Ignore Rider/VSCode settings
+.vscode/
+.idea/
+
+# Ignore compiled and generated files
+*.dll
+*.exe
+*.apk
+*.app
+*.log
+
+# Ignore Unity-specific build outputs (in case someone builds using your code)
+Build/
+Builds/
+Library/
+Obj/
+Temp/
+UserSettings/
+MemoryCaptures/
+
+# Ignore Unity package exports
+*.unitypackage
+
+# Ignore crash and analytics logs
+sysinfo.txt
+crash.txt
+
+# Ignore macOS junk
+.DS_Store
+
+# Ignore hidden system folders
+Thumbs.db
